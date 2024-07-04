@@ -141,8 +141,8 @@ img {
 
 .nav__link:link,
 .nav__link:visited {
-  font-size: 1.7rem;
-  font-weight: 400;
+  font-size: 1.8rem;
+  font-weight: 700;
   color: inherit;
   text-decoration: none;
   display: block;
@@ -153,7 +153,8 @@ img {
 .nav__link--btn:visited {
   padding: 0.8rem 2.5rem;
   border-radius: 3rem;
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
+  background-image: linear-gradient(to right bottom, #4bceee, #0008788e);
   color: #fff;
 }
 
@@ -182,6 +183,8 @@ img {
 
 .header__title {
   flex: 1;
+  background-image: linear-gradient(to right bottom, #4bceee, #0008788e),
+    url(./img/bg2.webp);
 
   max-width: 115rem;
   display: grid;
@@ -191,8 +194,23 @@ img {
   align-content: center;
   justify-items: center;
   align-items: center;
+  max-width: 100%;
+  background-size: cover;
+  clip-path: polygon(0px 0px, 100% 0px, 100% 75vh, 0px 100%);
+  background-position: center;
+  height: 100vh;
 }
 
+.header__text {
+  text-align: center;
+  position: relative;
+  left: 37%;
+  color: #fff;
+}
+
+.btn-learn--more {
+  color: ;
+}
 h1 {
   font-size: 5.5rem;
   line-height: 1.35;
@@ -569,7 +587,7 @@ h4 {
   margin-bottom: 5rem;
 }
 
-.syncs_text{
+.syncs_text {
   color: #f3f3f3;
   font-size: 4rem;
   text-align: center;
@@ -688,3 +706,5 @@ h4 {
   font-size: 1.5rem;
   font-weight: 500;
 }
+
+/*  */
