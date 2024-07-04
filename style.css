@@ -202,15 +202,21 @@ img {
 }
 
 .header__text {
-  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center; */
   position: relative;
   left: 37%;
   color: #fff;
 }
 
-.btn-learn--more {
-  color: ;
+#header__text{
+  position: relative;
+  left: 27%;
+  margin: 1.5rem 0;
 }
+
 h1 {
   font-size: 5.5rem;
   line-height: 1.35;
@@ -708,3 +714,22 @@ h4 {
 }
 
 /*  */
+.background__video {
+  position: relative;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 93%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.1;
+  overflow: hidden;
+}
+.bg-video__content {
+  height: 85%;
+  width: 100%;
+  object-fit: cover;
+}
