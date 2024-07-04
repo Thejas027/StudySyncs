@@ -211,7 +211,7 @@ img {
   color: #fff;
 }
 
-#header__text{
+#header__text {
   position: relative;
   left: 27%;
   margin: 1.5rem 0;
@@ -297,7 +297,7 @@ h4 {
 .operations {
   max-width: 100rem;
   margin: 12rem auto 0 auto;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, .7);
 }
 
 .operations__tab-container {
@@ -403,6 +403,22 @@ h4 {
 .operations__icon--3 svg {
   fill: var(--color-tertiary);
 }
+
+.operations__bg {
+  background-image: linear-gradient(to right bottom, #4bceee, #0008788e),
+    url(./img/bg2.webp);
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+  opacity: .9;
+  margin: 1rem 3rem;
+  clip-path: polygon(0px 10%, 100% 0px, 100% 90%, 0 100%);
+}
+
+.operations__text{
+  color: #fff;
+}
+/*  */
 
 .slider {
   max-width: 100rem;
