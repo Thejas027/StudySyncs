@@ -67,13 +67,13 @@ const menuFadeHandler = function (e, opacity) {
     const link = e.target;
 
     const siblings = link.closest(".nav").querySelectorAll(".nav__link");
-    const logo = link.closest(".nav").querySelector("img");
+    // const logo = link.closest(".nav").querySelector("img");
 
     siblings.forEach((ele) => {
       if (ele !== link) ele.style.opacity = this;
     });
 
-    logo.style.opacity = this;
+    // logo.style.opacity = this;
   }
 };
 

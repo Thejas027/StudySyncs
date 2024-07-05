@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 5rem;
+  background-color: #1a2b3c;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar__logo {
+  height: 3rem;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav__list li {
+  margin-left: 2rem;
+}
+
+.nav__list a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav__list a:hover {
+  color: #2f46f6;
+}
+
+.login-icon {
+  height: 2rem;
+  margin-left: 2rem;
+  border-radius: 50%;
+}
+
+
+.icon-bookmark {
+  filter: invert(100%);
+}
+
+.icon-download {
+  filter: invert(100%);
+}
+
+.login-image{
+  height: 3rem;
+  border-radius: 50%;
+  margin-left: 2rem;
+}
