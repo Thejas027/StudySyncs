@@ -87,6 +87,7 @@ body {
 
 .sidebar-list {
   list-style: none;
+  text-align: center;
 }
 
 .sidebar-list li {
@@ -96,8 +97,15 @@ body {
   max-width: 100%;
   cursor: pointer;
   border: 0.5px solid #e0e0e0;
+  border-radius: .5rem;
 }
 
+.sidebar-list li:hover {
+  background: #fff;
+  transition: all 0.2s;
+}
+
+/*  */
 .background {
   flex: 1;
   background-color: #e0e0e0;
@@ -110,7 +118,7 @@ body {
 }
 
 .bg--img {
-  height: 45vh;
+  height: 30vh;
   width: 100%;
   object-fit: fill;
   padding: 0;
@@ -121,8 +129,8 @@ body {
 
 .bg--text {
   position: absolute;
-  top: 5rem;
-  left: 25rem;
+  top: 8rem;
+  left: 35rem;
   opacity: 1;
   z-index: 1;
   text-transform: uppercase;
@@ -138,33 +146,36 @@ body {
   text-align: justify;
 }
 
+.bg--text-2 {
+  font-size: 1.4rem;
+}
+
+.bg--text-3 {
+  font-size: 1.5rem;
+  line-height: 0;
+}
 /*  */
 
-.boxes{
-display: flex;
-margin: 2rem;
-align-items: center;
-justify-content: space-around;
+.boxes {
+  display: flex;
+  margin: 2rem;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.box-1{
+.box-1 {
   width: 45vh;
-height: 12rem;
+  height: 12rem;
 }
 
-.box-2{
-  width: 60vh;
-height: 15rem;
-}
-
-.course--list{
-  list-style:none;
+.course--list {
+  list-style: none;
   letter-spacing: 2px;
   font-size: 1rem;
   font-weight: 200;
   cursor: pointer;
 }
-.course--name{
+.course--name {
   font-size: 1.4rem;
   line-height: 1rem;
   margin-bottom: 1rem;
@@ -172,9 +183,22 @@ height: 15rem;
   font-family: Verdana, sans-serif;
   font-weight: 500;
 }
-.course--list li:hover{
-  color:blue;
+.course--list li:hover {
+  color: blue;
 }
 
-.content-2--text{
+/*  */
+.box-2 {
+  width: 60vh;
+  height: 15rem;
+  background-color: rgba(116, 119, 115, 0.912);
+}
+
+.content-2--text {
+  background-color: white;
+}
+.quick-links {
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color: white;
 }

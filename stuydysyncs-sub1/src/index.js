@@ -44,9 +44,9 @@ function Main() {
         <div className="side-bar">
           {" "}
           <ul className="sidebar-list">
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
+            <li>College</li>
+            <li>Courses</li>
+            <li>About</li>
             <li>Item 4</li>
             <li>Item 5</li>
           </ul>
@@ -60,7 +60,10 @@ function Main() {
                 className="bg--img"
               ></img>
               <p className="bg--text">
-                Jss Science and Technology University, Mysuru
+                Shree Jayachamrajendra College
+                <br />
+                of Engineering <span className="bg--text-2">(JSSTU)</span>,
+                <br /> <span className="bg--text-3"> Mysuru-560007</span>
               </p>
             </div>
 
@@ -81,11 +84,22 @@ function Main() {
                   </ul>
                 </div>
                 <div className="box-2">
-                  <p className="content-2--text">
-                    "At our college, we foster innovation, academic excellence,
-                    and community engagement, preparing students for successful,
-                    impactful futures."
-                  </p>
+                  <p className="content-2--text">Quick links</p>
+                  <ul className="quick-links">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                  </ul>
+                  <div>
+                    <p>
+                      Our College offers a diverse range of programs, fostering
+                      academic excellence and personal growth. With
+                      state-of-the-art facilities and experienced faculty, it
+                      prepares students for successful careers and lifelong
+                      learning.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
