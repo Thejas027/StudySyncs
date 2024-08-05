@@ -1,0 +1,122 @@
+{
+  "college": "66917a9338cbf6a58c8a9d40",
+  "course": "",
+  "number": 3,
+  "subjects": [
+    {
+      "name": "Engineering Mathematics-III",
+      "code": "MA310",
+      "modules": [
+        { "name": "Statistics", "number": 1 },
+        { "name": "Linear Algebra", "number": 2 },
+        { "name": "Complex Variables-I", "number": 3 },
+        { "name": "Complex Variables-II", "number": 4 },
+        { "name": "Fourier Series", "number": 5 }
+      ]
+    },
+    {
+      "name": "Foundations of Engineering Mathematics-I",
+      "code": "MATDIP310",
+      "modules": [
+        { "name": "Differential Calculus-I", "number": 1 },
+        { "name": "Differential Calculus–II", "number": 2 },
+        { "name": "Differential Calculus–III", "number": 3 },
+        { "name": "Vector Calculus", "number": 4 },
+        { "name": "Differential Equations-I", "number": 5 }
+      ]
+    },
+    {
+      "name": "Circuit Theory and Analysis",
+      "code": "EC310",
+      "modules": [
+        { "name": "Basic concepts", "number": 1 },
+        { "name": "Network Theorems", "number": 2 },
+        { "name": "Resonance and Initial Conditions", "number": 3 },
+        {
+          "name": "Circuit Analysis using Laplace Transforms and Fourier series",
+          "number": 4
+        },
+        { "name": "Network Functions and Two Port parameters", "number": 5 }
+      ]
+    },
+    {
+      "name": "Sensors and Actuators",
+      "code": "EC320",
+      "modules": [
+        { "name": "Instrumentation system and Transducers", "number": 1 },
+        { "name": "Analog Sensors and Transducers", "number": 2 },
+        { "name": "Actuators", "number": 4 },
+        { "name": "Smart Sensors", "number": 4 },
+        { "name": "Interfacing Methods and Circuits", "number": 5 }
+      ]
+    },
+    {
+      "name": "Analog Electronic Circuits",
+      "code": "EC330",
+      "modules": [
+        { "name": "BJT amplifier circuits", "number": 1 },
+        { "name": "MOS amplifier circuits", "number": 2 },
+        { "name": "Frequency Response", "number": 3 },
+        { "name": "Feedback amplifiers and Oscillators", "number": 4 },
+        { "name": "Output stages and Power amplifiers", "number": 5 }
+      ]
+    },
+    {
+      "name": "Digital System Design",
+      "code": "EC340",
+      "modules": [
+        {
+          "name": "Principles, Analysis and design of combinational logic",
+          "number": 1
+        },
+        { "name": "Flip-Flops and its Applications", "number": 2 },
+        { "name": "Applications of Digital Circuits", "number": 3 },
+        {
+          "name": "Verilog HDL Basic Concepts, Modules and Ports, Gate-Level Modeling",
+          "number": 4
+        },
+        {
+          "name": "Dataflow Modeling, Behavioral Modeling, Tasks and Functions",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "name": "Communication Systems-I",
+      "code": "EC350",
+      "modules": [
+        { "name": "Introduction", "number": 1 },
+        { "name": "AM Modulation and Demodulation", "number": 2 },
+        { "name": "SSB generation and frequency synthesizers", "number": 3 },
+        { "name": "FM modulation and Demodulation", "number": 4 },
+        { "name": "Noise Analysis", "number": 5 }
+      ]
+    },
+    {
+      "name": "Universal Human Values (UHV)",
+      "code": "HU311",
+      "modules": [
+        {
+          "name": " Course Introduction - Need, Basic Guidelines, Content and Process for Value Education",
+          "number": 1
+        },
+        {
+          "name": "Understanding Harmony in the Human Being - Harmony in Myself! ",
+          "number": 2
+        },
+        {
+          "name": "Understanding Harmony in the Family and Society- Harmony in Human-Human Relationship",
+          "number": 3
+        },
+        {
+          "name": "Understanding Harmony in the Nature and Existence - Whole existence as Coexistence",
+          "number": 4
+        },
+        {
+          "name": "Implications of the above Holistic Understanding of Harmony on Professional Ethics ",
+          "number": 5
+        }
+      ]
+    }
+  ]
+}
